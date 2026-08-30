@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Learninghub | Quizes and more!</title>
+  <style>
+    .warning-text {
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      color: #ff4444;
+      font-weight: bold;
+      font-size: 14px;
+      letter-spacing: 0.5px;
+    }
+  </style>
+</head>
+
+<body style="background:#111;color:white;font-family:Arial;padding:30px;">
+
+  <h1>Team Fattys Client Launcher</h1>
+
+  <p>Select a client:</p>
+
+  <select id="clientSelect">
+    <option value="">Loading clients...</option>
+  </select>
+
+  <button onclick="launchClient()">Launch!</button>
+
+  <br><br>
+
+  <button onclick="launchEagler()">Launch Eagler Forge</button>
+
+  <div class="warning-text">
+    HEADS UP SPAM CLICK THE FRAME WHEN YOU LAUNCH THE CLIENT SO IT WORKS
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
