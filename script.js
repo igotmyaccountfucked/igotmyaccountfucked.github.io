@@ -31,7 +31,8 @@ const clients = [
   { name: "UwU Client", file: "UwU-Client.html" },
   { name: "Zeta Client", file: "Zeta-Client.html"},
   { name: "WurstX b2 Client", file: "WurstX_b2_1.8_WASM-GC_Offline_Download.html"},
-  { name: "DragonX V6 Client", file: "dragonxv6.html"}
+  { name: "DragonX V6 Client", file: "dragonxv6.html"},
+  { name: "26.2 Client", file: "26.2-eagler.html"}
 ];
 
 window.addEventListener("DOMContentLoaded", () => {
