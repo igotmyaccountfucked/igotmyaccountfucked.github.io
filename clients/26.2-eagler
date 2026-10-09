@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>eaglercraft pls wait </title>
+</head>
+<body>
+  <script>
+    async function loadAndRun() {
+      const urls = [
+        "https://cdn.jsdelivr.net/gh/igotmyaccountfucked/d@main/eaglercraft-26.2-zeus-skins(2).part001.html",
+        "https://cdn.jsdelivr.net/gh/igotmyaccountfucked/d@main/eaglercraft-26.2-zeus-skins(2).part002.html"
+        "https://cdn.jsdelivr.net/gh/igotmyaccountfucked/d@main/eaglercraft-26.2-zeus-skins(2).part003.html"
+      ];
+
+      let fullHtml = "";
+      for (const u of urls) {
+        const res = await fetch(u);
+        fullHtml += await res.text();
+      }
+
+      document.open();
+      document.write(fullHtml);
+      document.close();
+    }
+
+    loadAndRun();
+  </script>
+</body>
+</html>
